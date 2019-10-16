@@ -1,146 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>BigData Analytics - About Us</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
-    <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-</head>
-<style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bungee"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
     .company_title {
-        font-family: 'Bungee', cursive;
+      font-family: "Bungee", cursive;
     }
 
     .big {
-        color: #46A7F5;
+      color: #46a7f5;
     }
-</style>
-<body>
-<div id="app">
-    <v-app dark>
+  </style>
+  <body>
+    <div id="app">
+      <v-app dark>
         <v-toolbar dark fixed>
-            <v-toolbar-title class="display-2 company_title">
-                <span class="big">BIG</span>Data
-            </v-toolbar-title>
-            <v-toolbar-items class="hidden-sm-and-down">
-                <v-btn flat href="index.html">Home</v-btn>
-                <v-btn flat href="services.html">Our Services</v-btn>
-                <v-btn flat href="about.html">About Us</v-btn>
-            </v-toolbar-items>
+          <v-toolbar-title class="display-2 company_title">
+            <span class="big">BIG</span>Data
+          </v-toolbar-title>
+          <v-toolbar-items class="hidden-sm-and-down">
+            <v-btn flat href="index.html">Home</v-btn>
+            <v-btn flat href="services.html">Our Services</v-btn>
+            <v-btn flat href="about.html">About Us</v-btn>
+          </v-toolbar-items>
         </v-toolbar>
         <main>
-            <section>
-                <v-container grid-list-xl>
-                <v-layout
-                        column
-                        wrap
-                        class="my-5"
-                        align-center
-                >
-                    <v-flex xs12 sm4 class="my-3">
-                        <div class="text-xs-center">
-                            <h1 class="headline"><span class="big display-1">About Us</span></h1>
-                        </div>
-                        <div><p>Learn about the founders of BigData!</p></div>
-                    </v-flex>
-                    <v-layout row wrap align-center>
-                        <v-flex xs12 md3>
-                            <v-card>
-                                <v-card-media src="assets/avatar1.png" height="250px">
-                                </v-card-media>
-                                <v-card-title primary-title>
-                                    <div>
-                                        <h3 class="headline mb-0">Steven Myers</h3>
-                                        <div>Once a Software Developer, Steven went on to become the founder and CEO of BigData. He is responsible
-                                            for starting the business as a fake web app for a class!</div>
-                                    </div>
-                                </v-card-title>
-                                <v-card-actions>
-                                    <v-btn flat class="blue--text">Say Hi!</v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </v-flex>
-                        <v-flex xs12 md3>
-                            <v-card>
-                                <v-card-media src="assets/avatar3.jpg" height="250px">
-                                </v-card-media>
-                                <v-card-title primary-title>
-                                    <div>
-                                        <h3 class="headline mb-0">Thomas Edison</h3>
-                                        <div>The late Thomas Edison was revived with nanotechnology and decided to join BigData to take over the world...of data analytics!</div>
-                                    </div>
-                                </v-card-title>
-                                <v-card-actions>
-                                    <v-btn flat class="blue--text">Say Hi!</v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </v-flex>
-                        <v-flex xs12 md3>
-                            <v-card>
-                                <v-card-media src="assets/avatar2.jpg" height="250px">
-                                </v-card-media>
-                                <v-card-title primary-title>
-                                    <div>
-                                        <h3 class="headline mb-0">Sansa Stark</h3>
-                                        <div>After surviving long-running television series, Game of Thrones, Sansa Stark decided to join BigData Analytics to lead us to victory.</div>
-                                    </div>
-                                </v-card-title>
-                                <v-card-actions>
-                                    <v-btn flat class="blue--text">Say Hi!</v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </v-flex>
-                        <v-flex xs12 md3>
-                            <v-card>
-                                <v-card-media src="assets/avatar4.png" height="250px">
-                                </v-card-media>
-                                <v-card-title primary-title>
-                                    <div>
-                                        <h3 class="headline mb-0">Jessica Jones</h3>
-                                        <div>With Jessicaaaaaa Jones on our side, BigData is an unstoppable force. Her critical thinking skills have lead to astounding success!</div>
-                                    </div>
-                                </v-card-title>
-                                <v-card-actions>
-                                    <v-btn flat class="blue--text">Say Hi!</v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </v-flex>
-                    </v-layout>
-                </v-layout>
-                </v-container>
-            </section>
-
-            <section>
-                <v-container grid-list-xl>
-                    <v-flex xs12>
-                        <p>To learn more about our founders, please contact us from our <a href="index.html">home</a> page!</p>
-                    </v-flex>
-                </v-container>
-            </section>
-
-            <v-footer>
+          <section>
+            <v-container grid-list-xl>
+              <v-layout column wrap class="my-5" align-center>
+                <v-flex xs12 sm4 class="my-3">
+                  <div class="text-xs-center">
+                    <h1 class="headline">
+                      <span class="big display-1">About Us</span>
+                    </h1>
+                  </div>
+                  <div><p>Learn about the founders of BigData!</p></div>
+                </v-flex>
                 <v-layout row wrap align-center>
-                    <v-flex xs12>
-                        <div class="white--text ml-3">
-                            Created by <span class="white--text">Steven Myers</span>
+                  <v-flex xs12 md3>
+                    <v-card>
+                      <v-card-media src="assets/avatar1.png" height="250px">
+                      </v-card-media>
+                      <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">Steven Myers</h3>
+                          <div>
+                            Once a Software Developer, Steven went on to become
+                            the founder and CEO of BigData. He is responsible
+                            for starting the business as a fake web app for a
+                            class!
+                          </div>
                         </div>
-                    </v-flex>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn flat class="blue--text">Say Hi!</v-btn>
+                      </v-card-actions>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12 md3>
+                    <v-card>
+                      <v-card-media src="assets/avatar3.jpg" height="250px">
+                      </v-card-media>
+                      <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">Thomas Edison</h3>
+                          <div>
+                            The late Thomas Edison was revived with
+                            nanotechnology and decided to join BigData to take
+                            over the world...of data analytics!
+                          </div>
+                        </div>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn flat class="blue--text">Say Hi!</v-btn>
+                      </v-card-actions>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12 md3>
+                    <v-card>
+                      <v-card-media src="assets/avatar2.jpg" height="250px">
+                      </v-card-media>
+                      <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">Sansa Stark</h3>
+                          <div>
+                            After surviving long-running television series, Game
+                            of Thrones, Sansa Stark decided to join BigData
+                            Analytics to lead us to victory.
+                          </div>
+                        </div>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn flat class="blue--text">Say Hi!</v-btn>
+                      </v-card-actions>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12 md3>
+                    <v-card>
+                      <v-card-media src="assets/avatar4.png" height="250px">
+                      </v-card-media>
+                      <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">Jessica Jones</h3>
+                          <div>
+                            With Jessicaaaaaa Jones on our side, BigData is an
+                            unstoppable force. Her critical thinking skills have
+                            lead to astounding success!
+                          </div>
+                        </div>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn flat class="blue--text">Say Hi!</v-btn>
+                      </v-card-actions>
+                    </v-card>
+                  </v-flex>
                 </v-layout>
-            </v-footer>
+              </v-layout>
+            </v-container>
+          </section>
+
+          <section>
+            <v-container grid-list-xl>
+              <v-flex xs12>
+                <p>
+                  To learn more about our founders, please contact us from our
+                  <a href="index.html">home</a> page!
+                </p>
+              </v-flex>
+            </v-container>
+          </section>
+
+          <v-footer>
+            <v-layout row wrap align-center>
+              <v-flex xs12>
+                <div class="white--text ml-3">
+                  Created by <span class="white--text">Steven Myers</span>
+                </div>
+              </v-flex>
+            </v-layout>
+          </v-footer>
         </main>
-    </v-app>
-</div>
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
-<script>
-    new Vue({
-        el: '#app',
-        data () {
-            return {
-            }
+      </v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.js"></script>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {};
         }
-    })
-</script>
-</body>
+      });
+    </script>
+  </body>
 </html>
