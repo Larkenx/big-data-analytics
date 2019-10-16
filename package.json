@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'No build required'",
     "start": "npm run http-server"
   },
   "repository": {
