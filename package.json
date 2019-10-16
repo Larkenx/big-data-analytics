@@ -2,10 +2,10 @@
   "name": "big-data-analytics",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "build": "echo 'No build required'",
-    "start": "npm run http-server"
+    "build": "echo 'No build required!'",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Larkenx/big-data-analytics#readme",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "express": "^4.17.1"
   }
 }
